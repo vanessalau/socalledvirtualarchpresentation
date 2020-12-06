@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            background-color:rgba(70, 73, 73, 0.712) ;           
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            
+        }       
+        
+         body, html {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            }
+
+        .box {
+            width: 200px;
+            height: 300px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,.3);;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .box :hover {
+            animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+        }
+
+                        @keyframes shake {
+                0% { transform: translate(1px, 1px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-3px, 0px) rotate(1deg); }
+                30% { transform: translate(3px, 2px) rotate(0deg); }
+                40% { transform: translate(1px, -1px) rotate(1deg); }
+                50% { transform: translate(-1px, 2px) rotate(-1deg); }
+                60% { transform: translate(-3px, 1px) rotate(0deg); }
+                70% { transform: translate(3px, 1px) rotate(-1deg); }
+                80% { transform: translate(-1px, -1px) rotate(1deg); }
+                90% { transform: translate(1px, 2px) rotate(0deg); }
+                100% { transform: translate(1px, -2px) rotate(-1deg); }
+                }
+
+        .clickto {
+             width: 200px;
+            height: 300px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        
+
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        .title {
+            height: 150px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .item { 
+            width: 700px;
+            height: 450px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,.3);;
+            margin-top: 10px;
+            margin-left: 10px;
+
+        }
+
+        .item img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .item :hover {
+            transform: scale(1.5);
+        }
+
+    
+    </style>
+
+
+
+    <title>Plans and Sections</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="title">
+            <span style="font-family:'Courier New', Courier, monospace; font-size:55pt" >
+                Plans and Sections
+           </span>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+        
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_1.png" alt="">
+        </div>
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_2.png" alt="">
+        </div>
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_3.png" alt="">
+        </div>
+
+ 
+
+        
+    </div>
+
+
+    <div class="container">
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_4.png" alt="">
+        </div>
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_5.png" alt="">
+        </div>
+        <div class="item">
+            <img src="portfolio/PLANS AND SECTIONS_Page_6.png" alt="">
+        </div>
+       
+</body>
+</html>
+
